@@ -2,7 +2,7 @@
 
 A WordPress plugin to upload and upscale images using the Replicate `topazlabs/image-upscaler` model.
 
-## Features
+# ✨ Features
 
 - Drag & drop image upload
 - AJAX-powered image upscaling
