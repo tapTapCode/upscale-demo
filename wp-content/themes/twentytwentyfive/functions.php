@@ -157,15 +157,6 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 	}
 endif;
 
-function custom_upload_size_limit( $file ) {
-    $max_size = 1024 * 1024 * 1024; // 1024MB in bytes
-    if ( $file['size'] > $max_size ) {
-        $file['error'] = 'File size exceeds 1024MB limit.';
-    }
-    return $file;
-}
-add_filter( 'wp_handle_upload_prefilter', 'custom_upload_size_limit' );
-
 function image_comparison_shortcode($atts) {
     $a = shortcode_atts([
         'before' => '', // URL to before image
