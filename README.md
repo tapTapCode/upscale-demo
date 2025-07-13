@@ -1,6 +1,6 @@
 # Upscale Demo
 
-A WordPress plugin to upload and upscale images using the Replicate `topazlabs/image-upscaler` model.
+A WordPress plugin to upload and upscale images using the Replicate's `topazlabs/image-upscaler` model.
 
 # ✨ Features
 
@@ -42,4 +42,3 @@ GPL-2.0-or-later
 
 ---
 
-Created by [Your Name]
