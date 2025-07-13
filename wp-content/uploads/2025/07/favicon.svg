@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="512" height="512" viewBox="0 0 512 512">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="global-svg-defs" version="1.0" width="0" height="0" viewBox="0 0 340.000000 250.000000" preserveAspectRatio="xMidYMid meet" color-interpolation-filters="sRGB" class="el-tooltip" style="margin: auto;">
+    <defs>
+      <pattern id="watermark" patternUnits="userSpaceOnUse" width="100%" height="100%">
+        <image xlink:href="https://www.logoai.com/img/watermark/LOGOAI-watermark.png" x="0" y="0" width="100%" height="100%">
+        </image>
+      </pattern>
+      <linearGradient id="92" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#fa71cd"></stop>
+        <stop offset="100%" stop-color="#9b59b6"></stop>
+      </linearGradient>
+      <linearGradient id="93" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#f9d423"></stop>
+        <stop offset="100%" stop-color="#f83600"></stop>
+      </linearGradient>
+      <linearGradient id="94" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#0064d2"></stop>
+        <stop offset="100%" stop-color="#1cb0f6"></stop>
+      </linearGradient>
+      <linearGradient id="95" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#f00978"></stop>
+        <stop offset="100%" stop-color="#3f51b1"></stop>
+      </linearGradient>
+      <linearGradient id="96" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#7873f5"></stop>
+        <stop offset="100%" stop-color="#ec77ab"></stop>
+      </linearGradient>
+      <linearGradient id="97" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#f9d423"></stop>
+        <stop offset="100%" stop-color="#e14fad"></stop>
+      </linearGradient>
+      <linearGradient id="98" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#009efd"></stop>
+        <stop offset="100%" stop-color="#2af598"></stop>
+      </linearGradient>
+      <linearGradient id="99" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#ffcc00"></stop>
+        <stop offset="100%" stop-color="#00b140"></stop>
+      </linearGradient>
+      <linearGradient id="100" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#d51007"></stop>
+        <stop offset="100%" stop-color="#ff8177"></stop>
+      </linearGradient>
+      <linearGradient id="102" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#a2b6df"></stop>
+        <stop offset="100%" stop-color="#0c3483"></stop>
+      </linearGradient>
+      <linearGradient id="103" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#7ac5d8"></stop>
+        <stop offset="100%" stop-color="#eea2a2"></stop>
+      </linearGradient>
+      <linearGradient id="104" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#00ecbc"></stop>
+        <stop offset="100%" stop-color="#007adf"></stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <rect x="0" y="0" width="100%" height="100%" fill="transparent" fill-opacity="1"></rect>
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-v-0dd9719b="" version="1.0" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" color-interpolation-filters="sRGB" style="margin: auto;">
+    <rect data-v-0dd9719b="" x="0" y="0" width="100%" height="100%" fill="#ffffff" fill-opacity="1" class="background" style="display: none;"></rect>
+    <rect data-v-0dd9719b="" x="0" y="0" width="100%" height="100%" fill="url(#watermark)" fill-opacity="1" class="watermarklayer" style="display: none;"></rect>
+    <g data-v-0dd9719b="" fill="#333" class="iconsvg-imagesvg">
+      <rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="100" height="100" class="image-rect"></rect>
+      <svg viewBox="0 0 60 60" x="0" y="0" width="100" height="100" class="image-svg-svg bn" style="overflow: visible;">
+        <g>
+          <g>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65" style="overflow: visible;" width="60" height="60" x="0" y="0" filter="url(#IUSYUmtztP4DzKhXgAUp7)">
+              <g transform="scale(1, 1) skewX(0)">
+                <path d="M65 0v65H0V0h65zm-4 4H4v57h57V4z" fill="#000" fill-rule="nonzero"></path>
+              </g>
+              <defs>
+                <filter id="IUSYUmtztP4DzKhXgAUp7">
+                  <feColorMatrix type="matrix" values="0 0 0 0 0.19921875  0 0 0 0 0.19921875  0 0 0 0 0.19921875  0 0 0 1 0"></feColorMatrix>
+                </filter>
+              </defs>
+            </svg>
+          </g>
+          <g filter="url(#colors7575360885)">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 76.89600000000002 53.712" width="45" height="45" x="7.5" y="7.5" class="image-svg-letter">
+              <path transform="translate(-2.5200000000000005 52.848000000000006)" d="M2.52-5.83Q2.52-8.86 4.43-15.77Q6.34-22.68 6.34-24.26Q6.34-25.85 3.74-28.87L3.74-28.87L3.89-29.95Q10.44-31.39 19.22-31.39L19.22-31.39Q19.80-30.17 19.80-27.50Q19.80-24.84 17.82-17.42Q15.84-10.01 15.84-8.64L15.84-8.64Q15.84-6.77 17.64-6.77L17.64-6.77Q18.86-6.77 20.74-7.70L20.74-7.70Q20.95-8.86 22.03-13.75L22.03-13.75Q24.55-24.62 24.55-30.02L24.55-30.02Q27.86-31.46 35.86-31.46L35.86-31.46L37.80-31.46Q37.80-28.22 35.89-18.79Q33.98-9.36 33.95-7.92Q33.91-6.48 34.56-6.48L34.56-6.48L38.09-7.42L39.38-3.82Q37.30-2.16 33.34-0.65Q29.38 0.86 26.35 0.86L26.35 0.86Q21.89 0.86 20.81-2.74L20.81-2.74Q14.83 0.86 9.36 0.86L9.36 0.86Q2.52 0.86 2.52-5.83L2.52-5.83ZM66.17 0.86L66.17 0.86Q61.70 0.86 60.41-2.59L60.41-2.59Q54.94 0.86 50.65 0.86Q46.37 0.86 43.74-2.05Q41.11-4.97 41.11-11.52L41.11-11.52Q41.11-20.09 45.47-25.99Q49.82-31.90 56.74-31.90L56.74-31.90Q60.12-31.90 63.50-30.31L63.50-30.31Q66.17-42.48 66.17-47.81L66.17-47.81Q66.17-49.39 65.95-50.98L65.95-50.98Q72.65-52.85 78.84-52.85L78.84-52.85Q79.42-51.91 79.42-48.42Q79.42-44.93 76.14-29.66Q72.86-14.40 72.86-9.22L72.86-9.22Q72.86-6.48 73.80-6.48L73.80-6.48L76.90-7.49L78.19-3.82Q71.86 0.86 66.17 0.86ZM56.74-6.41L56.74-6.41Q58.03-6.41 59.62-7.27L59.62-7.27L59.62-7.34Q59.90-13.18 62.42-25.70L62.42-25.70Q60.98-26.14 60.34-26.14L60.34-26.14Q58.82-26.14 57.67-24.62Q56.52-23.11 55.87-20.74L55.87-20.74Q54.65-15.84 54.65-11.12Q54.65-6.41 56.74-6.41Z"></path>
+            </svg>
+          </g>
+        </g>
+      </svg>
+      <defs>
+        <filter id="colors7575360885">
+          <feColorMatrix type="matrix" values="0 0 0 0 0.19921875  0 0 0 0 0.19921875  0 0 0 0 0.19921875  0 0 0 1 0" class="icon-fecolormatrix"></feColorMatrix>
+        </filter>
+        <filter id="colorsf5448717250">
+          <feColorMatrix type="matrix" values="0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 1 0" class="icon-fecolormatrix"></feColorMatrix>
+        </filter>
+        <filter id="colorsb1716201759">
+          <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" class="icon-fecolormatrix"></feColorMatrix>
+        </filter>
+      </defs>
+    </g>
+    <defs></defs>
+  </svg>
+</svg>
