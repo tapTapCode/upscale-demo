@@ -42,4 +42,4 @@ GPL-2.0-or-later
 
 ---
 
-Created by [Your Name]
+
