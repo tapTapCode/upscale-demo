@@ -15,6 +15,7 @@ class Upscale_Demo {
             <p><strong>Drag and drop your image here</strong> or</p>
             <p><button type="button" id="select-file-btn" class="blue-button">Click to select</button></p>
             <p style="font-size: 0.9em; color: #000;">(JPG, PNG, WEBP, etc.)</p>
+            <p style="font-size: 0.5em; color: #6a6a6a;">1280px by 1280px — that’s the sweet spot!</p>
         </div>
         <input type="file" id="upscale-file-input" accept="image/*" style="display:none" />
 
@@ -51,11 +52,15 @@ class Upscale_Demo {
         error_log('[Upscale Demo] Image URL: ' . $image_url);
 
         $body = json_encode([
-            'version' => '2fdc3b86a01d338ae89ad58e5d9241398a8a01de9b0dda41ba8a0434c8a00dc3', // topazlabs/image-upscale id
+            'version' => '2fdc3b86a01d338ae89ad58e5d9241398a8a01de9b0dda41ba8a0434c8a00dc3', // topazlabs/image-upscale versionid
             'input' => [
                 'image' => $image_url,
-                'scale' => 2, // Available: 2 or 4
-                'mode'  => 'standard' // Options: standard, graphics, lines
+                'enhance_model' => 'Low Resolution V2',
+                'upscale_factor' => '4x',
+                'face_enhancement' => true,
+                'subject_detection' => 'Foreground',
+                'face_enhancement_creativity' => 0.5,
+                'face_enhancement_strength' => 0.8
             ],
         ]);
 

@@ -3,56 +3,56 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 100vh; /* Ensure body takes full viewport height */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  min-height: 100vh; 
+  box-sizing: border-box; 
 }
 
 body {
-  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* Modern, clean font stack */
-  background-color: #ffffff; /* Pure white background for a stark B&W theme */
-  color: #333333; /* Dark grey for default text color */
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #ffffff; 
+  color: #333333; 
   line-height: 1.6;
-  display: flex; /* Use flexbox to center content vertically/horizontally */
+  display: flex; 
   justify-content: center;
   align-items: center;
-  padding: 20px; /* Add some padding around the main content */
+  padding: 20px; 
 }
 
 /* Main container for the plugin shortcode content, similar to the image's layout */
 .upscale-wrapper {
-  max-width: 600px; /* Adjust as needed for optimal readability and design */
-  width: 100%; /* Ensure it's responsive */
-  background-color: #ffffff; /* White background for the card */
-  border-radius: 12px; /* Slightly more rounded corners for a modern feel */
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08); /* Subtle shadow for depth */
+  max-width: 600px; 
+  width: 100%;
+  background-color: #ffffff; 
+  border-radius: 12px; 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08); 
   padding: 40px;
-  text-align: center; /* Center content within the wrapper */
+  text-align: center; 
 }
 
 /* Heading style */
 h1 {
-  color: #000000; /* Pure black for headings */
+  color: #000000; 
   font-size: 2em;
   margin-bottom: 35px;
-  font-weight: 600; /* Slightly bolder for headings */
+  font-weight: 600; 
 }
 
 /* Drag & Drop Box */
 #upscale-dropbox {
-  border: 3px dashed #333333; /* Dark grey dashed border */
+  border: 3px dashed #333333; 
   border-radius: 10px;
   padding: 30px;
   text-align: center;
-  color: #333333; /* Dark grey text */
+  color: #333333; 
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for border too */
-  margin-bottom: 90px; /* Increased margin for better spacing */
-  display: flex; /* Use flexbox for internal alignment */
-  flex-direction: column; /* Stack children vertically */
+  transition: background-color 0.3s ease, border-color 0.3s ease; 
+  margin-bottom: 90px; 
+  display: flex; 
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
-  min-height: 150px; /* Ensure a decent height */
+  min-height: 150px; 
 }
 
 #upscale-dropbox p {
@@ -64,6 +64,34 @@ h1 {
   border-color: #000000; /* Black border on dragover for emphasis */
 }
 
+/* Button style */
+.blue-button { 
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 10px 20px; 
+  margin-top: 15px; 
+  font-size: 1.05rem; 
+  font-weight: 500; 
+  border-radius: 6px; 
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.1s ease; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
+}
+
+.blue-button:hover,
+.blue-button:focus {
+  background-color: #1a1a1a; 
+  outline: none;
+  transform: translateY(-1px); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.blue-button:active {
+  transform: translateY(0); 
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); 
+}
+
 /* Spinner */
 .spinner {
   border: 5px solid #e0e0e0; /* Light grey base for spinner */
@@ -72,7 +100,7 @@ h1 {
   width: 40px;
   height: 40px;
   animation: spin 1s linear infinite;
-  margin: 25px auto; /* Centered with vertical margin */
+  margin: 25px auto; 
   display: none; /* Hidden by default */
 }
 
@@ -84,7 +112,7 @@ h1 {
 /* Progress Bar Container */
 #progress-container {
   width: 100%;
-  background-color: #e0e0e0; /* Light grey background for the container */
+  background-color: #e0e0e0; 
   border-radius: 5px;
   margin: 15px 0 25px 0; /* Adjusted margins */
   display: none; /* Hidden by default */
@@ -99,44 +127,17 @@ h1 {
   transition: width 0.3s ease;
 }
 
-/* Button style */
-.blue-button { /* Renamed from .black-button if you prefer to keep .blue-button in HTML */
-  background-color: #000000; /* Pure black button background */
-  border: none;
-  color: white;
-  padding: 10px 20px; /* Larger padding for better clickability */
-  margin-top: 15px; /* Space from text above it */
-  font-size: 1.05rem; /* Slightly larger font size */
-  font-weight: 500; /* Medium font weight */
-  border-radius: 6px; /* Slightly more rounded button */
-  cursor: pointer;
-  transition: background-color 0.25s ease, transform 0.1s ease; /* Add transform for subtle click effect */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
-}
 
-.blue-button:hover,
-.blue-button:focus {
-  background-color: #1a1a1a; /* Slightly lighter black on hover/focus */
-  outline: none;
-  transform: translateY(-1px); /* Slight lift on hover */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
-}
-
-.blue-button:active {
-  transform: translateY(0); /* Push down on click */
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Smaller shadow on active */
-}
-
-/* Styles for status and results messages (optional, based on your JS implementation) */
+/* Styles for status and results messages */
 #upscale-status {
   margin-top: 15px;
   font-size: 1.1em;
-  color: #555555; /* Medium grey for status text */
+  color: #555555;
 }
 
 #upscale-results {
   margin-top: 25px;
-  border-top: 1px solid #eeeeee; /* Light grey separator */
+  border-top: 1px solid #eeeeee; 
   padding-top: 20px;
 }
 

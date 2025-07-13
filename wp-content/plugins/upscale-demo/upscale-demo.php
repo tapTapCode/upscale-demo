@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Upscale Demo (Replicate)
- * Description: Upload → Unblur/Enlarge → Preview using Replicate's Real-ESRGAN API with drag & drop and AJAX.
+ * Description: Upload → Unblur/Enlarge → Preview using Replicate's topazlabs/image-upscale API with drag & drop and AJAX.
  * Version: 1.2
  * Author: Jumar
  */
